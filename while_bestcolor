@@ -1,0 +1,23 @@
+running = true
+
+while running
+
+  puts "What's the best color?"
+  
+  guess = gets.chomp
+  
+  if guess == "purple"
+  
+    puts "You're right!"
+    
+    running = false
+    
+  else
+  
+    puts "Wrong!"
+
+  end
+  
+end
+
+puts "Thanks for playing!"
